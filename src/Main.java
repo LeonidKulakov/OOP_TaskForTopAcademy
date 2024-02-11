@@ -1,3 +1,5 @@
+import lesson1.SecondTestClass;
+import lesson1.TestClass;
 import lesson2.AnimalType;
 import lesson2.Season;
 import lesson2_3.*;
@@ -8,8 +10,9 @@ public class Main {
          * Урок 1
          * */
 
-
-
+        TestClass testClass = new TestClass();
+        TestClass testClass1 = new TestClass("Goga", "worker");
+        TestClass testClass2 = new TestClass("Seva", "student", new SecondTestClass());
 
 
         /**
